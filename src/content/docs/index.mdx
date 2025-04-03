@@ -1,36 +1,38 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash
-hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
-  actions:
-    - text: Example Guide
-      link: /guides/example/
-      icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
+title: Engram Help
+description: My docs description
 ---
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+Welcome to the official Engram Help guide, where you can find tips and guides on how to use Engram. For API documentation visit the [Engram Developer Docs](/).
 
-## Next steps
+Getting Started
+---
+If you're new to Engram, learn the basics with our guides.
+- [Download and Install Engram](/getting-started/download-and-install/)
+- [Create a deck](/getting_started/create-a-deck/)
+- [Create your first card](/getting-started/create-your-first-card/)
+- [Reviewing cards](/getting-started/reviewing-cards/)
+- [Creating Powerful Cards](/cards/card-guidelines)
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+Extend Engram
+---
+Robust plugin and theming systems allow you to shape Engram to fit your way of thinking.
+
+<CardGrid>
+  <LinkCard title="Themes" href="/extending-engram/themes" description="Customize the look and feel of Engram with community-made color schemes." />
+  <LinkCard title="Community Plugins" href="/extending-engram/plugins" description="Enable more capabilities with features built by Engram users." />
 </CardGrid>
+
+
+Add-on Services
+---
+<LinkCard title="Engram Sync" href="/sync" description="A safe and secure way to synchronize your notes across any device and OS." />
+
+Contribute
+---
+If you find any mistakes or missing information on this site, you can contribute improvements and translations via the [GitHub repo](https://github.com/engramapp).
+
+If you want to support Engram financially, consider a Catalyst license, which offers early access to beta versions of Engram.
+
+See the [Credits](/engram/credits) to get to know all the amazing people who make Engram possible.
