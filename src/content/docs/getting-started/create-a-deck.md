@@ -5,7 +5,7 @@ title: Create a deck
 Decks in Engram are collections of flashcards. These are used for organizing cards into groups based on your preferences. These decks can then be published and shared for others to also use.
 
 :::tip[Coming from Anki?]
-Please visit [Importing Local Collections and Decks](/).
+Please visit [Importing Local Collections and Decks](/import/importing-local-collections).
 :::
 
 Create a new deck
@@ -25,5 +25,5 @@ To import a deck:
 - Click `Download`.
 
 :::note
-Publishing a deck requires an [Engram Sync license](/).
+Publishing a deck requires an [Engram Sync license](/sync).
 :::

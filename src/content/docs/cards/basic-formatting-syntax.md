@@ -56,7 +56,7 @@ Engram supports linking markdown files, known as *Wikilinks*, and external URLs:
     Wikilink: [[Three laws of motion]]
     External URLs: [Three laws of motion](/)
 
-You can also create external links to markdown files, by linking to an Obsidian URI.
+You can also create external links to files in platforms like [Obsidian](https://obsidian.md), by linking to a file URI.
 
     [Note](obsidian://open?vault=MainVault&file=Note.md)
 
@@ -98,15 +98,10 @@ To create an ordered list, start each line with a number followed by a . symbol.
 
 Horizontal rule
 ---
-You can use three or more stars ***, hyphens ---, or underscore ___ on its own line to add a horizontal bar.
+You can use three stars `***` or hyphens `---` on its own line to add a horizontal bar.
 
     ***
-    ****
-    * * *
     ---
-    ----
-    ___
-    ____
 
 Code
 ---

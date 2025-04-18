@@ -44,4 +44,4 @@ Uninstall an existing theme
 
 Learn more
 ---
-Ready to build your own theme? Learn how to [Build a theme](/).
+Ready to build your own theme? Learn how to [Build a theme](https://docs.engramapp.com/themes/build-a-theme/).

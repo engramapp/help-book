@@ -6,12 +6,12 @@ We offer full refunds within 7 days of purchase with no questions asked for the 
 
 - Engram Sync
 
-:::caution[No refunds for Catalyst or Engram Credit]
+:::caution[No refunds for Catalyst]
 Catalyst licenses are not refundable.
 
 While they give you a number of benefits, they're intended to support the Engram development and aren't sold as products.
 
-Similarly, we do not offer refunds for Engram Credit, as credit can be transferred to another account.
+<!-- Similarly, we do not offer refunds for Engram Credit, as credit can be transferred to another account. -->
 
 Sorry for the inconvenience.
 :::

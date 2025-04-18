@@ -15,6 +15,16 @@ export default defineConfig({
 		logo: {
 			src: './src/assets/helplogo.png'
 		},
+		head: [
+			{
+			  tag: 'meta',
+			  attrs: {
+				property: 'og:image',
+				content: 'https://help.engramapp.com/logo_banner_card.png',
+			  },
+			},
+			// You can add other global head elements here
+		],
 		customCss: [
 			'./src/styles/docs.css',
 		],

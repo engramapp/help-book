@@ -10,7 +10,7 @@ Cards in Engram are split by **Front**, **Back**, and **Context** fields for sim
 - The **Back** is displayed the back side of the card, typically an answer.
 - The **Context** is for additional information on that card.
 
-Engram's [themes](/) and [plugins](/) can be used to further customize how text and cards are rendered.
+Engram's [themes](/extending-engram/themes) and [plugins](/extending-engram/community-plugins) can be used to further customize how text and cards are rendered.
 
 Card Types
 ---

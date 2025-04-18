@@ -19,7 +19,7 @@ If you're working with sensitive data and wish to install a community plugin, we
 
 Plugin review process
 ---
-Community plugins undergo an initial review when they're submitted to the plugin store. All plugins must adhere to [Engram Developer Policies](/).
+Community plugins undergo an initial review when they're submitted to the plugin store. All plugins must adhere to [Engram Developer Policies](https://docs.engramapp.com/developer-policy/).
 
 The Engram team is small and unable to manually review every new release of community plugins. Instead, we rely on the help of the community to identify and report issues with plugins.
 

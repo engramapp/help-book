@@ -15,7 +15,7 @@ a solidified memory trace.
 ```
 - Click `Create Card`.
 
-For more tips on creating powerful cards, please see the [Recommended Card Guidelines]().
+For more tips on creating powerful cards, please see the [Recommended Card Guidelines](/cards/card-guidelines).
 
 Formatting text
 ---
@@ -29,4 +29,4 @@ The hash symbol (#) turns a line of text into a heading.
 
 In your card, select any text and press Ctrl+B (or Cmd+B on macOS) to make it bold.
 
-To learn more about how to format your notes using Markdown, refer to [Basic formatting syntax]().
+To learn more about how to format your notes using Markdown, refer to [Basic formatting syntax](cards/basic-formatting-syntax/).

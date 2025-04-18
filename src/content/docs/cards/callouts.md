@@ -34,16 +34,17 @@ A minus sign collapses a callout.
 Community themes can define custom callouts, or even overwrite the default configuration.
 
 To define a custom callout, create the following CSS block:
-
+```css
 .callout[data-callout="custom-question-type"] {
     --callout-color: 0, 0, 0;
     --callout-icon: lucide-alert-circle;
 }
+```
 
 The value of the data-callout attribute is the type identifier you want to use, for example [!custom-question-type].
 
-    --callout-color defines the background color using numbers (0–255) for red, green, and blue.
-    --callout-icon can be an icon ID from lucide.dev, or an SVG element.
+`--callout-color` defines the background color using numbers (0–255) for red, green, and blue.
+`--callout-icon` can be an icon ID from lucide.dev, or an SVG element.
 
 :::note[Note about lucide icon versions]
 Engram updates Lucide icons periodically. The current version included is shown below; use these or earlier icons in custom callouts.
@@ -58,6 +59,11 @@ You can use several callout types and aliases. Each type comes with a different 
 
 Unless you Customize callouts, any unsupported type defaults to the note type. The type identifier is case-insensitive.
 
-- note
+Currently recognized values are as follows:
 - warning
+- tip
+- success
 - hint
+- quote
+- caution
+- error

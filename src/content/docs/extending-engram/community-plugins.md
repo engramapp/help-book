@@ -58,4 +58,4 @@ Uninstall a community plugin
 
 Learn more
 ---
-Ready to build your own community plugin? Learn how to [Build a plugin](/).
+Ready to build your own community plugin? Learn how to [Build a plugin](https://docs.engramapp.com/).
