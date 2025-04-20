@@ -4,7 +4,7 @@ sidebar:
     order: 1
 ---
 
-The speed you learn with Engram will depend on the way the card is formed.
+The speed you learn with Engram will depend mostly on the way the card is formed.
 
 Engram works best when:
 1. You completely understand the information on the card.
