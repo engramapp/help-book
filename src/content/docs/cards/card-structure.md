@@ -24,6 +24,14 @@ Each card type can be used interchangeably to create high-quality decks.
 
 ### Cloze Cards
 
+Cloze Cards are essential to creating a strong deck. To create a cloze card, select the `Cloze` type in the card wizard.
+
+:::tip
+The cloze type can be quickly switched by using `cmd + 2` on the keyboard.
+
+Learn more about Engram hotkeys [here](/user-interface/hotkeys).
+:::
+
 Clozes are created using a double-wrapping bracket: `{{this is clozed}}`.
 
 Each cloze in a card creates an additional card, where each additional card created is studied individually. This allows you to create multiple cards with ease.
@@ -41,7 +49,9 @@ The theory of ... assumes that the speed of light is constant.
 The theory of relativity assumes that ....
 ```
 
-Cloze numbering is automatically handled for you, where each cloze will automatically create a new card. This can be overwritten by including a `c#::` before the card text. Numbering starts a 0.
+Cloze numbering is automatically handled for you, where each cloze will automatically create a new card. 
+
+Automatic numbering can be overwritten by including a `c#::` before the card text. Numbering starts at 0.
 
 For example, the following will create 1 card:
 ```
